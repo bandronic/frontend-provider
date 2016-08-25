@@ -18,9 +18,9 @@ class FrontendMiddleware
     
     public function __invoke(ServerRequestInterface $request, ResponseInterface $response, callable $next = null)
     {
-        $home = new Home($this->frontend);
+        $home = new Home();
         
-        $page = new HtmlResponse($home());
+        $page = new HtmlResponse($home($this->frontend));
         
         return $next($request, $page);
     }
