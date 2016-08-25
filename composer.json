@@ -16,6 +16,7 @@
   },
   "autoload" : {
     "psr-4" : {
+      "Bandronic\\" : "src\\",
       "Bandronic\\Factory\\" : "src\\Factory",
       "Bandronic\\View\\" : "src\\View",
       "Bandronic\\Frontend\\" : "src\\"
