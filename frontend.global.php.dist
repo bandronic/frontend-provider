@@ -1,0 +1,10 @@
+<?php
+
+return 
+[
+    'frontend' =>
+    [
+        'title' => 'Page Title',
+        'header' => 'Page Header'
+    ]
+];
