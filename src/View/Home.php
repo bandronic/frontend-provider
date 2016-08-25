@@ -1,6 +1,6 @@
 <?php
 
-namespace View;
+namespace Bandronic\View;
 
 class Home
 {

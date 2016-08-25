@@ -1,11 +1,11 @@
 <?php
 
-namespace Frontend;
+namespace Bandronic\Frontend;
 
 use Psr\Http\Message\ServerRequestInterface;
 use Psr\Http\Message\ResponseInterface;
 use Zend\Diactoros\Response\HtmlResponse;
-use View\Home;
+use Bandronic\View\Home;
 
 class FrontendMiddleware
 {

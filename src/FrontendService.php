@@ -1,6 +1,6 @@
 <?php
 
-namespace Frontend;
+namespace Bandronic\Frontend;
 
 class FrontendService
 {

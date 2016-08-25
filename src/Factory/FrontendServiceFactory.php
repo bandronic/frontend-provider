@@ -1,8 +1,8 @@
 <?php
 
-namespace Factory;
+namespace Bandronic\Factory;
 
-use Frontend\FrontendService;
+use Bandronic\Frontend\FrontendService;
 use Interop\Container\ContainerInterface;
 
 class FrontendServiceFactory

@@ -1,10 +1,10 @@
 <?php
 
-namespace Factory;
+namespace Bandronic\Factory;
 
 use Interop\Container\ContainerInterface;
-use Frontend\FrontendService;
-use Frontend\FrontendMiddleware;
+use Bandronic\Frontend\FrontendMiddleware;
+use Bandronic\Frontend\FrontendService;
 
 class FrontendFactory
 {

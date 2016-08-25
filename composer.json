@@ -4,15 +4,22 @@
   "description" : "Frontent provider module",
   "minimum-stability" : "dev",
   "version" : "0.0.1",
+  "authors": [
+    {
+      "name": "bandronic",
+      "email": "email@example.com"
+    }
+  ],
   "require" : {
+  	"php": "^5.5 || ^7.0",
     "zendframework/zend-expressive" : "^1.0.0",
     "zendframework/zend-diactoros" : "^1.3.5"
   },
   "autoload" : {
     "psr-4" : {
-      "Factory\\" : "src\\Factory",
-      "View\\" : "src\\View",
-      "Frontend\\" : "src\\"
+      "Bandronic\\Factory\\" : "src\\Factory",
+      "Bandronic\\View\\" : "src\\View",
+      "Bandronic\\Frontend\\" : "src\\"
     }
   },
   "extra": {
