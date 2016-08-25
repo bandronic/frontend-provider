@@ -22,6 +22,11 @@ class FrontendMiddleware
         
         $page = new HtmlResponse($home($this->frontend));
         
-        return $next($request, $page);
+        if($next)
+        {
+            return $next($request, $page);
+        }
+        
+        return $page;
     }
 }
