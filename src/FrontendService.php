@@ -30,7 +30,7 @@ class FrontendService
             // set the header if the config contains it
             if(isset($config['header']))
             {
-                $this->pageTitle = $config['header'];
+                $this->pageHeader = $config['header'];
             }
         }
     }
